@@ -1,7 +1,7 @@
 import React from 'react';
 import Note from './Note';
 import './App.css';
-
+import NoteView from './NoteView';
 function App() {
   return (
     <div className="App">
@@ -10,9 +10,7 @@ function App() {
         <Note title="Mengha" date="1/09/1997" />
         <Note title="Chenga" date="2/09/1997" />
       </div>
-      <div className="content">
-
-      </div>
+      <NoteView title="meghu" date="21/09/1998" />
     </div>
 
   );

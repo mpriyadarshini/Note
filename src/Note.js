@@ -11,4 +11,5 @@ function Note({ title, date }) {
         </div>
     )
 }
+
 export default Note;
